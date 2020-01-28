@@ -10,14 +10,13 @@ import UIKit
 
 class DisplayNoteViewController: UIViewController {
     
-    // MARK: - Properties
-    // DISPLAYING NOTES
+    // MARK: Properties
     var note: Note?
     
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var contentTextView: UITextView!
     
-    
+    // MARK: View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -34,8 +33,7 @@ class DisplayNoteViewController: UIViewController {
         }
     }
     
-    // MARK: - Navigation
-    // SAVING EDITS
+    // MARK: Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         guard let identifier = segue.identifier else { return }
@@ -45,23 +43,17 @@ class DisplayNoteViewController: UIViewController {
             note?.title = titleTextField.text ?? ""
             note?.content = contentTextView.text ?? ""
             note?.modificationTime = Date()
-            
             CoreDataHelper.saveNote()
-            
         case "save" where note == nil:
             let note = CoreDataHelper.newNote()
             note.title = titleTextField.text ?? ""
             note.content = contentTextView.text ?? ""
             note.modificationTime = Date()
-            
             CoreDataHelper.saveNote()
-            
-            
         case "cancel":
             print("cancel button tapped")
         default:
             print("unexpected segue identifier")
         }
     }
-    
 }

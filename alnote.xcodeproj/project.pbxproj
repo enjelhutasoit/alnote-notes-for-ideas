@@ -71,6 +71,9 @@
 				EF04DC1223DFC87F0023B46E /* Controllers */,
 				EF04DC1123DFC8780023B46E /* Views */,
 				EF04DC1023DFC8710023B46E /* Models */,
+				EF04DBF623DFB6B70023B46E /* AppDelegate.swift */,
+				EF04DBF823DFB6B70023B46E /* SceneDelegate.swift */,
+				EF04DBFF23DFB6B80023B46E /* Assets.xcassets */,
 				EF04DC0423DFB6B80023B46E /* Info.plist */,
 			);
 			path = alnote;
@@ -87,12 +90,9 @@
 		EF04DC1123DFC8780023B46E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EF04DC1E23E018DC0023B46E /* Main.storyboard */,
 				EF04DC0C23DFC0770023B46E /* ListNotesTableViewCell.swift */,
-				EF04DBF623DFB6B70023B46E /* AppDelegate.swift */,
-				EF04DBF823DFB6B70023B46E /* SceneDelegate.swift */,
-				EF04DBFF23DFB6B80023B46E /* Assets.xcassets */,
 				EF04DC0123DFB6B80023B46E /* LaunchScreen.storyboard */,
+				EF04DC1E23E018DC0023B46E /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";

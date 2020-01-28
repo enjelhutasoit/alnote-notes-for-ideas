@@ -10,20 +10,21 @@ import UIKit
 
 class ListNotesTableViewController: UITableViewController {
     
-    // MARK: - Properties
+    // MARK: Properties
     var notes = [Note]() {
         didSet {
             tableView.reloadData()
         }
     }
     
+    // MARK: View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // RETRIEVING NOTES
+        // Retrieving note
         notes = CoreDataHelper.retrieveNotes()
     }
     
-    // MARK: - TableView
+    // MARK: TableView
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return notes.count
     }
@@ -50,7 +51,6 @@ class ListNotesTableViewController: UITableViewController {
     }
     
     // MARK: - Navigation
-    // PASSING NOTE DATA VIA SEGUES
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let identifier = segue.identifier else {return}
         
@@ -60,8 +60,6 @@ class ListNotesTableViewController: UITableViewController {
             let note = notes[indexPath.row]
             let destination = segue.destination as! DisplayNoteViewController
             destination.note = note
-            
-        // Segue Add Note
         case "addNote":
             print("create note bar button item tapped")
         default:
@@ -69,10 +67,8 @@ class ListNotesTableViewController: UITableViewController {
         }
     }
     
-    // Unwind segue
     @IBAction func unwindWithSegue(_ segue: UIStoryboardSegue){
         notes = CoreDataHelper.retrieveNotes()
     }
-    
 }
 
