@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		EF04DBF723DFB6B70023B46E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04DBF623DFB6B70023B46E /* AppDelegate.swift */; };
 		EF04DBF923DFB6B70023B46E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04DBF823DFB6B70023B46E /* SceneDelegate.swift */; };
-		EF04DBFB23DFB6B70023B46E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04DBFA23DFB6B70023B46E /* ViewController.swift */; };
-		EF04DBFE23DFB6B70023B46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF04DBFC23DFB6B70023B46E /* Main.storyboard */; };
 		EF04DC0023DFB6B80023B46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF04DBFF23DFB6B80023B46E /* Assets.xcassets */; };
 		EF04DC0323DFB6B80023B46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF04DC0123DFB6B80023B46E /* LaunchScreen.storyboard */; };
+		EF04DC0B23DFBD580023B46E /* ListNotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04DC0A23DFBD580023B46E /* ListNotesTableViewController.swift */; };
+		EF04DC0D23DFC0770023B46E /* ListNotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04DC0C23DFC0770023B46E /* ListNotesTableViewCell.swift */; };
+		EF04DC0F23DFC3680023B46E /* DisplayNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04DC0E23DFC3680023B46E /* DisplayNoteViewController.swift */; };
+		EF04DC1523DFC8F10023B46E /* Date+convertToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04DC1423DFC8F10023B46E /* Date+convertToString.swift */; };
+		EF04DC1B23DFD89D0023B46E /* Alnote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF04DC1923DFD89D0023B46E /* Alnote.xcdatamodeld */; };
+		EF04DC1D23DFD9950023B46E /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04DC1C23DFD9950023B46E /* CoreDataHelper.swift */; };
+		EF04DC1F23E018DC0023B46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF04DC1E23E018DC0023B46E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF04DBF323DFB6B70023B46E /* alnote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alnote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF04DBF323DFB6B70023B46E /* Alnote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alnote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF04DBF623DFB6B70023B46E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF04DBF823DFB6B70023B46E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF04DBFA23DFB6B70023B46E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF04DBFD23DFB6B70023B46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF04DBFF23DFB6B80023B46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF04DC0223DFB6B80023B46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF04DC0423DFB6B80023B46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF04DC0A23DFBD580023B46E /* ListNotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotesTableViewController.swift; sourceTree = "<group>"; };
+		EF04DC0C23DFC0770023B46E /* ListNotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotesTableViewCell.swift; sourceTree = "<group>"; };
+		EF04DC0E23DFC3680023B46E /* DisplayNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNoteViewController.swift; sourceTree = "<group>"; };
+		EF04DC1423DFC8F10023B46E /* Date+convertToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+convertToString.swift"; sourceTree = "<group>"; };
+		EF04DC1A23DFD89D0023B46E /* Alnote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alnote.xcdatamodel; sourceTree = "<group>"; };
+		EF04DC1C23DFD9950023B46E /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		EF04DC1E23E018DC0023B46E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +58,7 @@
 		EF04DBF423DFB6B70023B46E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF04DBF323DFB6B70023B46E /* alnote.app */,
+				EF04DBF323DFB6B70023B46E /* Alnote.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,23 +66,68 @@
 		EF04DBF523DFB6B70023B46E /* alnote */ = {
 			isa = PBXGroup;
 			children = (
-				EF04DBF623DFB6B70023B46E /* AppDelegate.swift */,
-				EF04DBF823DFB6B70023B46E /* SceneDelegate.swift */,
-				EF04DBFA23DFB6B70023B46E /* ViewController.swift */,
-				EF04DBFC23DFB6B70023B46E /* Main.storyboard */,
-				EF04DBFF23DFB6B80023B46E /* Assets.xcassets */,
-				EF04DC0123DFB6B80023B46E /* LaunchScreen.storyboard */,
+				EF04DC1623DFC9030023B46E /* Helpers */,
+				EF04DC1323DFC8C60023B46E /* Extensions */,
+				EF04DC1223DFC87F0023B46E /* Controllers */,
+				EF04DC1123DFC8780023B46E /* Views */,
+				EF04DC1023DFC8710023B46E /* Models */,
 				EF04DC0423DFB6B80023B46E /* Info.plist */,
 			);
 			path = alnote;
 			sourceTree = "<group>";
 		};
+		EF04DC1023DFC8710023B46E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF04DC1923DFD89D0023B46E /* Alnote.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF04DC1123DFC8780023B46E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF04DC1E23E018DC0023B46E /* Main.storyboard */,
+				EF04DC0C23DFC0770023B46E /* ListNotesTableViewCell.swift */,
+				EF04DBF623DFB6B70023B46E /* AppDelegate.swift */,
+				EF04DBF823DFB6B70023B46E /* SceneDelegate.swift */,
+				EF04DBFF23DFB6B80023B46E /* Assets.xcassets */,
+				EF04DC0123DFB6B80023B46E /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EF04DC1223DFC87F0023B46E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF04DC0A23DFBD580023B46E /* ListNotesTableViewController.swift */,
+				EF04DC0E23DFC3680023B46E /* DisplayNoteViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EF04DC1323DFC8C60023B46E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF04DC1423DFC8F10023B46E /* Date+convertToString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EF04DC1623DFC9030023B46E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EF04DC1C23DFD9950023B46E /* CoreDataHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF04DBF223DFB6B70023B46E /* alnote */ = {
+		EF04DBF223DFB6B70023B46E /* Alnote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF04DC0723DFB6B80023B46E /* Build configuration list for PBXNativeTarget "alnote" */;
+			buildConfigurationList = EF04DC0723DFB6B80023B46E /* Build configuration list for PBXNativeTarget "Alnote" */;
 			buildPhases = (
 				EF04DBEF23DFB6B70023B46E /* Sources */,
 				EF04DBF023DFB6B70023B46E /* Frameworks */,
@@ -82,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = alnote;
+			name = Alnote;
 			productName = alnote;
-			productReference = EF04DBF323DFB6B70023B46E /* alnote.app */;
+			productReference = EF04DBF323DFB6B70023B46E /* Alnote.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF04DBF223DFB6B70023B46E /* alnote */,
+				EF04DBF223DFB6B70023B46E /* Alnote */,
 			);
 		};
 /* End PBXProject section */
@@ -126,8 +181,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF04DC0323DFB6B80023B46E /* LaunchScreen.storyboard in Resources */,
+				EF04DC1F23E018DC0023B46E /* Main.storyboard in Resources */,
 				EF04DC0023DFB6B80023B46E /* Assets.xcassets in Resources */,
-				EF04DBFE23DFB6B70023B46E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF04DBFB23DFB6B70023B46E /* ViewController.swift in Sources */,
+				EF04DC0D23DFC0770023B46E /* ListNotesTableViewCell.swift in Sources */,
+				EF04DC1523DFC8F10023B46E /* Date+convertToString.swift in Sources */,
+				EF04DC0B23DFBD580023B46E /* ListNotesTableViewController.swift in Sources */,
+				EF04DC0F23DFC3680023B46E /* DisplayNoteViewController.swift in Sources */,
 				EF04DBF723DFB6B70023B46E /* AppDelegate.swift in Sources */,
+				EF04DC1D23DFD9950023B46E /* CoreDataHelper.swift in Sources */,
+				EF04DC1B23DFD89D0023B46E /* Alnote.xcdatamodeld in Sources */,
 				EF04DBF923DFB6B70023B46E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +207,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF04DBFC23DFB6B70023B46E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF04DBFD23DFB6B70023B46E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF04DC0123DFB6B80023B46E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,14 +339,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FN97V72AGN;
 				INFOPLIST_FILE = alnote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.enjelhutasoit.alnote;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Alnote;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,14 +358,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FN97V72AGN;
 				INFOPLIST_FILE = alnote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.enjelhutasoit.alnote;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Alnote;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -328,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF04DC0723DFB6B80023B46E /* Build configuration list for PBXNativeTarget "alnote" */ = {
+		EF04DC0723DFB6B80023B46E /* Build configuration list for PBXNativeTarget "Alnote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF04DC0823DFB6B80023B46E /* Debug */,
@@ -338,6 +392,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF04DC1923DFD89D0023B46E /* Alnote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF04DC1A23DFD89D0023B46E /* Alnote.xcdatamodel */,
+			);
+			currentVersion = EF04DC1A23DFD89D0023B46E /* Alnote.xcdatamodel */;
+			path = Alnote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EF04DBEB23DFB6B70023B46E /* Project object */;
 }
